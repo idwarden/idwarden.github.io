@@ -1,0 +1,314 @@
+@font-face {
+    font-family: PTSerif;
+    src: url(..//fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+    font-family: QuiteChocolatey;
+    src: url(..//fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+    font-family: Montserrat_regular;
+    src: url(..//fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat__bold;
+    src: url(..//fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(..//fonts/couture-bld.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    margin: 0;
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+/****HEADER****/
+.header {
+    background-color: #dd2211;
+    background-image: url(..//img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 1010px;
+}
+.header__inner {
+    height: 690px;
+    
+}
+.logo_top {
+    font-family: QuiteChocolatey;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+.logo_top a {
+    color: #fff;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list {
+    display: flex;
+    margin: 0;
+    margin-top: 60px;
+}
+.nav__list li {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+.nav__list li:hover {
+    background-color: #130e27;
+}
+.nav__list a {
+    color: #fff;
+    font-size: 18px;
+    font-family: Montserrat_regular;
+    line-height: 18px;
+    padding: 12px 14px;
+    text-transform: uppercase;
+}
+.welcome {
+    padding-left: 20px;
+}
+.welcome h2{
+    font-size: 90px;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.title_1 {
+    margin-top: 160px;
+    color: #130e27;
+}
+.title_2 {
+    color: #ffffff;
+}
+.welcome p {
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: left;
+    max-width: 490px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+/****SERVICES****/
+.services {
+    background-color: #fff;
+}
+.services__inner {
+    height: 480px;
+}
+.services_title {
+    display: flex;
+    padding-left: 20px;
+}
+.services__inner h3{
+    font-size: 50px;
+    font-family: Couture;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.services__title1 {
+    color: rgb(198, 35, 20);
+}
+.services__title2 {
+    color: #130e27;
+}
+.service__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+.item {
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    text-align: center;
+}
+.item i {
+    font-size: 150px;
+}
+.item p {
+    margin-top: 20px;
+    max-width: 185px;
+}
+/****STORY****/
+.story {
+    background-color: #130e27;
+}
+.story__inner {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.story__inner p {
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: left;  
+    max-width: 640px;
+}
+.button_story {
+    border-radius: 5px;
+    background-color: rgb(198, 35, 20);
+    width: 270px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Montserrat;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/****PRICING****/
+.pricing {
+    background-color: #efefef;
+}
+.pricing__inner {
+    height: 615px;
+}
+.pricing__inner h3 {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.pricebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+.price__item {
+    text-align: center;
+    width: 320px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.price__item p {
+    font-size: 22px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+    line-height: 22px;
+    margin-top: 34px;
+} 
+.pricing__inner h4 {
+    font-size: 60px;
+    font-family: Montserrat;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    line-height: 60px;
+    margin-top: 34px;
+    text-transform: uppercase;
+}
+.price__item ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 18px;
+}
+.price__item li {
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+} 
+.button_price {
+    width: 205px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 18px;
+    color: #fff;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.button_price_try  {
+    background-color: #130e27;
+}
+.button_price_singup_red {
+    background-color: #c62314;
+}
+.button_price_signup_normal {
+    background-color: #130e27;
+}
+
+/****INFO****/
+.footer {
+    background-color: #130e27;
+}
+.footer__inner {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.credit {
+    color: #fff;
+    font-size: 20px;
+    font-family: PTSerif;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+.credit a{
+    color: #c62314;
+}
+.logo_bottom {
+    font-family: QuiteChocolatey;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    line-height: 42px;
+    font-weight: normal;
+}
+.logo_bottom a {
+    color: #c62314;
+}
