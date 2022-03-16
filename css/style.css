@@ -41,9 +41,6 @@ h1 {
     display: flex;
     justify-content: left;
 }
-h2 {
-
-}
 ul {
     list-style-type: square;
     line-height: 30px;
